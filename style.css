@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 28px;
+  color: rgb(2, 148, 246);
+  font-weight: bold;
+}
+
+a:link {
+  color: rgb(2, 246, 246);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(2, 100, 246);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(67, 2, 246);
+  text-decoration: underline;
+}

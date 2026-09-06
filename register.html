@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="back-arrow">
+        <a href="./index.html"><img src="./Back Arrow.png" /></a>
+      </div>
+      <div class="logo">
+        <img src="./SMIT LOGO.png" />
+      </div>
+      <div>
+        <h1 class="heading">STUDENT REGISTRATION FORM</h1>
+      </div>
+      <form action="">
+        <table>
+          <tr>
+            <td>FIRST NAME</td>
+            <td>
+              <input type="text" placeholder="Enter your First Name" minlength="4" maxlength="30" />
+              (max 30 characters a-z and A-Z)
+            </td>
+          </tr>
+          <tr>
+            <td>LAST NAME</td>
+            <td>
+              <input type="text" placeholder="Enter your Last Name" minlength="4" maxlength="30" />
+              (max 30 characters a-z and A-Z)
+            </td>
+          </tr>
+          <tr>
+            <td>DATE OF BIRTH</td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td>EMAIL ID</td>
+            <td><input type="email" placeholder="Enter your Email Address" /></td>
+          </tr>
+          <tr>
+            <td>MOBILE NUMBER</td>
+            <td>
+              <input type="text" placeholder="Enter your Mobile Number" /> (10 Digits Numbers)
+            </td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td><input type="radio" /> Male <input type="radio" /> Female</td>
+          </tr>
+          <tr>
+            <td>ADDRESS</td>
+            <td><textarea cols="40" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td>CITY</td>
+            <td>
+              <input type="text" placeholder="Enter your City Name" /> (max 30 characters a-z and
+              A-Z)
+            </td>
+          </tr>
+          <tr>
+            <td>PIN CODE</td>
+            <td><input type="text" placeholder="Enter your Pin Code" /> (6 Digits Numbers)</td>
+          </tr>
+          <tr>
+            <td>State</td>
+            <td>
+              <input type="text" placeholder="Enter your State" /> (max 30 characters a-z and A-Z)
+            </td>
+          </tr>
+          <tr>
+            <td>COUNTRY</td>
+            <td><input type="text" placeholder="Enter your Country Name" /></td>
+          </tr>
+          <tr>
+            <td>HOBBIES</td>
+            <td>
+              <input class="hobby" type="checkbox" /> Drawing <input class="hobby" type="checkbox" /> Singing
+              <input class="hobby" type="checkbox" /> Dancing <input class="hobby" type="checkbox" /> Sketching
+              <input class="hobby" type="checkbox" /> Others <input class="hobby" type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>QUALIFICATION</td>
+            <td>
+              <table class="qualification">
+                <tr>
+                  <th>S.No.</th>
+                  <th>Examination</th>
+                  <th>Board</th>
+                  <th>Percentage</th>
+                  <th>Year of passing</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Class X</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Class XII</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Graduation</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Masters</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>(10 char max)</td>
+                  <td>upto 2 decimal</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>COURSES APPLIED FOR</td>
+            <td>
+              <select>
+                <option selected>Select any course</option>
+                <option>BCA</option>
+                <option>B.A</option>
+                <option>B.Sc</option>
+                <option>B.Com</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Upload your pic (only .png,.jpg,.jpeg formats allow)</td>
+            <td><input type="file" /></td>
+          </tr>
+        </table>
+
+        <div class="btn">
+          <button class="submit-btn" type="submit">Submit</button>
+          <button class="reset-btn" type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
