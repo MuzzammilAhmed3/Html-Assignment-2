@@ -16,9 +16,9 @@ a {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 24px;
   font-size: 28px;
-  color: rgb(2, 148, 246);
+  color: rgb(3, 148, 246);
   font-weight: bold;
 }
 
